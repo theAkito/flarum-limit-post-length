@@ -5,7 +5,7 @@ use Flarum\Post\PostValidator;
 use Illuminate\Support\Str;
 
 return [
-  (new Extend\Validator(DiscussionValidator::class))
+  (new Extend\Validator(PostValidator::class))
     ->configure(function ($flarumValidator, $validator) {
       $rules = $validator->getRules();
 
