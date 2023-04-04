@@ -1,7 +1,7 @@
 <?php
 
 use Flarum\Extend;
-use Flarum\Discussion\DiscussionValidator;
+use Flarum\Post\PostValidator;
 use Illuminate\Support\Str;
 
 return [
