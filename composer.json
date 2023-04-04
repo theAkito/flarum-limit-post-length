@@ -1,0 +1,41 @@
+{
+  "name": "akito/flarum-limit-post-length",
+  "description": "Limit Post Length to 700 characters in Flarum.",
+  "keywords": [
+    "akito",
+    "flarum",
+    "discuss",
+    "discussion",
+    "post",
+    "length",
+    "limit"
+  ],
+  "type": "flarum-extension",
+  "license": "GPL-3.0+",
+  "authors": [{
+    "name": "Akito",
+    "homepage": "https://dev.akito.ooo/"
+  }],
+  "support": {
+    "issues": "https://github.com/theAkito/flarum-limit-post-length/issues",
+    "source": "https://github.com/theAkito/flarum-limit-post-length"
+  },
+  "require": {
+    "flarum/core": ">=1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "theAkito\\flarum-limit-post-length\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Limit Post Length",
+      "icon": {
+        "name": "fas fa-chart-line",
+        "backgroundColor": "#17b2ff",
+        "color": "#fff"
+      }
+    }
+  }
+}
